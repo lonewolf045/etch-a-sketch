@@ -1,3 +1,6 @@
+body {
+    background-color: rgb(204, 204, 255);
+}
 header {
     display: block;
     justify-content: center;
@@ -41,4 +44,35 @@ footer{
     border-top: 1px solid black;
     background-color: rgb(204, 204, 255);
     vertical-align: bottom;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.canvas{
+    border: 1px solid black;
+    width : 500px;
+    height: 500px;
+    margin : 20px auto;
+    background-color: white;
+}
+
+.black{
+    background-color: black;
+}
+
+.row {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+
+.column {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    background-color: rgb(204, 204, 255);
 }
